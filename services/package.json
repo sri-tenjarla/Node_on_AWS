@@ -1,0 +1,32 @@
+{
+  "name": "services",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon --watch src --ext ts --exec \"ts-node src/index.ts\"",
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sri Tenjarla",
+  "license": "ISC",
+  "description": "Node.js RESTful API service",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/axios": "^0.9.36",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.8.5",
+    "@types/prompt-sync": "^4.2.3",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0",
+    "nodemon": "^3.1.7",
+    "prompt-sync": "^4.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.12.2"
+  }
+}
