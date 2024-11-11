@@ -8,9 +8,9 @@ function lengthOfLongestSubstring(str: string) {
     let left: number, right: number, maxLength: number;
     left = right = maxLength = 0;
 
-    const n = str.length;
+    // const n = str.length;
     // const set = new Set();
-    let map = new Map();
+    const map = new Map();
 
     // while (right < n) {
     //     if (!set.has(str[right])) {
